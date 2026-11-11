@@ -1,11 +1,7 @@
 {
-  "_ayuda": "Edita este archivo para cambiar los patrocinadores. Posiciones válidas: top, bottom, left-top, left-bottom, right-top, right-bottom. Una valla activa por posición. image: ruta relativa al juego (ads/img/archivo.png) o URL https. link: opcional (https://...).",
+  "_ayuda": "Patrocinadores. Posiciones: left-mid y right-mid (logo en el piso junto a la red), top, bottom, left-top, left-bottom, right-top, right-bottom (vallas). Una activa por posición. image: ruta relativa (ads/img/archivo.png) o URL https. link: opcional (https://...). opacity: solo logos del piso (0 a 1).",
   "ads": [
-    { "id": "mi-ranking", "name": "Mi Ranking", "image": "assets/branding/mi-ranking-logo.png", "position": "top", "active": true, "background": "#ffffff", "color": "#0d4675" },
-    { "id": "espacio-1", "name": "TU MARCA AQUÍ", "tagline": "Patrocina Punto Maestro", "position": "bottom", "active": true, "background": "#c2d343", "color": "#0b1f3a" },
-    { "id": "espacio-2", "name": "TU MARCA AQUÍ", "tagline": "Espacio disponible", "position": "left-top", "active": true, "background": "#0d4675", "color": "#ffffff" },
-    { "id": "espacio-3", "name": "TU MARCA AQUÍ", "tagline": "Espacio disponible", "position": "right-bottom", "active": true, "background": "#0d4675", "color": "#ffffff" },
-    { "id": "ejemplo-imagen", "name": "Patrocinador ejemplo", "image": "ads/img/patrocinador-ejemplo.svg", "link": "https://example.com", "position": "left-bottom", "active": false },
-    { "id": "espacio-5", "name": "TU MARCA AQUÍ", "position": "right-top", "active": false, "background": "#c2d343", "color": "#0b1f3a" }
+    { "id": "babolat", "name": "Babolat", "image": "ads/img/babolat-blanco.png", "position": "left-mid", "active": true, "opacity": 0.5 },
+    { "id": "yonex", "name": "Yonex", "image": "ads/img/yonex-blanco.png", "position": "right-mid", "active": true, "opacity": 0.5 }
   ]
 }
