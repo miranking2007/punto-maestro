@@ -1,0 +1,11 @@
+{
+  "name": "Punto Maestro — by Mi Ranking",
+  "short_name": "Punto Maestro",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b1f3a",
+  "theme_color": "#0b1f3a",
+  "icons": [{ "src": "assets/branding/mi-ranking-logo.png", "sizes": "1037x953", "type": "image/png" }]
+}
