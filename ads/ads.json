@@ -4,7 +4,7 @@
     { "id": "babolat", "name": "Babolat", "image": "ads/img/babolat-blanco.png", "position": "left-mid", "active": true, "opacity": 0.5 },
     { "id": "yonex", "name": "Yonex", "image": "ads/img/yonex-blanco.png", "position": "right-mid", "active": true, "opacity": 0.5 },
     { "id": "mi-ranking-red", "name": "Mi Ranking", "image": "assets/branding/mi-ranking-logo-blanco.png", "position": "net", "active": false, "opacity": 0.9 },
-    { "id": "mi-ranking-jugada", "name": "Mi Ranking", "image": "assets/branding/mi-ranking-logo-blanco.png", "position": "play", "active": true },
+    { "id": "mi-ranking-jugada", "name": "Mi Ranking", "image": "assets/branding/mi-ranking-logo-blanco.png", "position": "play", "active": false },
     { "id": "ejemplo-rotacion-izquierda", "name": "Otra marca", "image": "ads/img/yonex-blanco.png", "position": "left-mid", "active": false, "opacity": 0.5, "rotate": 6 },
     { "id": "ejemplo-presentado-por", "name": "Tu marca", "position": "loading", "active": false }
   ]
