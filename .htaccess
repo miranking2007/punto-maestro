@@ -1,0 +1,22 @@
+# Punto Maestro — configuración para SiteGround (Apache)
+# Garantiza la barra final del subdirectorio (las rutas del juego son relativas).
+DirectorySlash On
+DirectoryIndex index.html
+
+<IfModule mod_mime.c>
+  AddType application/manifest+json .webmanifest
+  AddType application/json .json
+  AddType image/svg+xml .svg
+</IfModule>
+
+<IfModule mod_headers.c>
+  # Archivos con hash: caché larga. HTML y JSON de anuncios: siempre frescos.
+  <FilesMatch "\.(js|css)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(html|json|webmanifest)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
